@@ -22,7 +22,8 @@
     ],
     "require": {
         "sunnysideup/ecommerce": "^33.0",
-        "silverstripe/recipe-cms": "^6.0"
+        "silverstripe/recipe-cms": "^6.0",
+        "sunnysideup/ecommerce_discount_coupon": "dev-main"
     },
     "extra": [],
     "prefer-stable": true,
@@ -30,13 +31,6 @@
     "autoload": {
         "psr-4": {
             "Sunnysideup\\EcommerceQuickCoupons\\": "src/"
-        }
-    },
-    "yet-to-update": {
-        "sunnysideup/ecommerce_discount_coupon": {
-            "section": "require",
-            "current": "^5.0-dev",
-            "reason": "no-compatible-stable-release"
         }
     }
 }
